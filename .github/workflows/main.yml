@@ -1,8 +1,6 @@
 name: Run tests
 
 on:  
-  push:
-  pull_request:
   schedule:
     - cron: '1 * * * *'  # every day at midnight
 
